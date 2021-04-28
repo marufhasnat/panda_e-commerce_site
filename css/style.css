@@ -1,0 +1,178 @@
+/* header start */
+header{
+    padding: 25px 0;
+}
+header .custom_btn{
+    color: #FF589B;
+    border-color: #FF589B;
+    transition: all 1s;
+}
+header .custom_btn:hover{
+    color: white;
+    background-color: #FF589B;
+    border-color: #FF589B;
+}
+.header_search{
+    width: 45% !important;
+}
+header ul li.nav-item{
+    padding: 0 8px;
+}
+header ul li.nav-item a{
+    color: #000 !important;
+    transition: all 0.5s;
+}
+header ul li.nav-item a:hover{
+    color: #FF589B !important;
+}
+/* header end */
+
+
+/* slider start */
+.slider_bg{
+    background-color: #fceae8;
+    border-radius: 10px;
+}
+.carousel-indicators [data-bs-target]{
+    height: 10px;
+    background-color: #FF589B;
+}
+.carousel-item{
+    padding: 20px 40px;
+}
+.price{
+    color: #FF136F;
+}
+.buy-btn{
+    background-image: linear-gradient(to bottom,#FF589B 0%,#FF136F 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
+/* slider end */
+
+
+/* categories start */
+.categories{
+    margin-top: 30px;
+    padding: 50px 0;
+}
+.categories h1{
+    color: white;
+}
+.categories img{
+    width: 100px;
+}
+.categories .cat-mt{
+    margin-top: 30px;
+}
+.categories .cat1,.cat2,.cat3{
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.categories .cat1{
+    background-image: linear-gradient(to right,#FF9C35 0%, #FFD019 100%);
+}
+.categories .cat2{
+    background-image: linear-gradient(to right,#FF589B 0%, #FF136F 100%);
+}
+.categories .cat3{
+    background-image: linear-gradient(to left,#4289FF 0%, #07F8C3 100%);
+}
+/* categories end */
+
+
+/* shoes start */
+.shoes{
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.shoes h4{
+    margin-bottom: 50px;
+}
+.shoes .shoes-btn{
+   background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
+.shoes .card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+}
+/* shoes end */
+
+
+/* backpack start */
+.backpack{
+    margin-top: 100px;
+    margin-bottom: 90px;
+}
+.backpack h4{
+    margin-bottom: 60px;
+}
+.backpack .backpack-btn{
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+ }
+ .backpack .card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+ }
+/* backpack end */
+
+
+/* subscribe start */
+.subscribe{
+    margin-top: 115px;
+    margin-bottom: 60px;
+}
+.subscribe_container{
+    height: 300px;
+    background-color: #fceae8;
+}
+.sub_content h6{
+    color: gray;
+    margin: 15px 0;
+}
+.email_box{
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    padding: .375rem .75rem;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.send_btn{
+    background-image: linear-gradient(to bottom,#FF589B 0%,#FF136F 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 7px 25px;
+    cursor: pointer;
+}
+/* subscribe end */
+
+
+/* footer start */
+footer{
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+/* footer end */
